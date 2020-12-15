@@ -1,0 +1,13 @@
+
+public class Simulator {
+	
+	public static void main(String[] args) {
+		
+		myCar.run();
+		
+		Car myCar = new Car();
+		
+		}
+	}
+
+

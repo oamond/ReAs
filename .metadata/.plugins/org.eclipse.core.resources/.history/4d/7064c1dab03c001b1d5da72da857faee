@@ -1,0 +1,17 @@
+
+public class SwitchStatement {
+	public static void main(String[] args) {
+		int x = 5;
+		case 6:
+			
+		switch(x) {
+		
+		default:
+			System.out.println("the default case ran");
+		case 10: 
+			System.out.println("case 10 ran");
+		
+		}
+	}
+
+}
