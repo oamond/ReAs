@@ -4,7 +4,8 @@ public class palindromes {
 	
 	public static void main(String[] args) {
 		
-		String original = "nurses run";
+		String original = "mom";
+		
 		original = original.replace(" ", "");
 		
 		String reverse = "";
@@ -19,7 +20,7 @@ public class palindromes {
 				palindrome = false;
 			}
 		}
-		if (palindrome) {
+		if (original.equalsIgnoreCase(reverse)) {
 			System.out.println("Palindrome");
 		} else {
 			System.out.println("Not a palindrome");
