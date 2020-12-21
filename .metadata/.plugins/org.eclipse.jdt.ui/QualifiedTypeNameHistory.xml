@@ -20,4 +20,5 @@
     <fullyQualifiedTypeName name="model.ReallyAwesomePerson"/>
     <fullyQualifiedTypeName name="model.AwesomePerson"/>
     <fullyQualifiedTypeName name="com.mycompany.main.StaticClass"/>
+    <fullyQualifiedTypeName name="one.Movable"/>
 </qualifiedTypeNameHistroy>
