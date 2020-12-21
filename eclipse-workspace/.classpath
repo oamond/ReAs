@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CastingDatatypes/src"/>
+	<classpathentry kind="src" path="Java_Assignment_1_Introduction/src"/>
+	<classpathentry kind="src" path="Java_Assignment_2_Statements/src"/>
+	<classpathentry kind="src" path="Lab-ConditionalBlocks/src"/>
+	<classpathentry kind="src" path="Lab-MathematicalOperators"/>
+	<classpathentry kind="src" path="SwapProject/src"/>
+	<classpathentry kind="output" path="CastingDatatypes/bin"/>
+</classpath>
