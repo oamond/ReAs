@@ -1,0 +1,66 @@
+package com.app.dao.impl;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.app.dao.PlayerCrudDAO;
+import com.app.dao.dbutil.PostgresqlConnection;
+import com.app.exception.BusinessException;
+import com.app.model.Player;
+
+public class PlayerCrudDAOImpl implements PlayerCrudDAO {
+
+	@Override
+	public int createPlayer(Player player) throws BusinessException {
+		int c= 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			String sql = "insert into practice2.player(id, name, age, gender, teamname, contact, dob) values(?, ?, ?, ?, ?, ?, ?) ";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, player.getId());
+			preparedStatement.setString(2, player.getName());
+			preparedStatement.setString(3, player.getAge());
+			preparedStatement.setString(4, player.getGender());
+			preparedStatement.setString(5, player.getTeamname());
+			preparedStatement.setLong(6, player.getContact());
+			preparedStatement.setDate(7, new java.sql.Date(player.getDob().getTime()));   //util.Date to sql.Date 
+			
+			c = preparedStatement.executeUpdate();
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);  // <--- take off this line when app is live
+			throw new BusinessException("Internal error  occurred please contact SYSADMIN");
+		}
+		return c;
+	}
+
+	@Override
+	public void deletePlayer(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int updatePlayerContact(int id, long newContact) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Player getPlayerById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Player> getAllPlayers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+
+}

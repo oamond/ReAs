@@ -1,0 +1,52 @@
+package com.app.dao.impl;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.app.dao.PlayerCrudDAO;
+import com.app.dao.dbutil.PostgresqlConnection;
+import com.app.model.Player;
+
+public class PlayerCrudDAOImpl implements PlayerCrudDAO {
+
+	@Override
+	public int createPlayer(Player player) {
+		int c= 0;
+		try(Connection connection = PostgresqlConnection.getConnection()){
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);  // <--- take off this line when app is live
+			throw new BusinessException("Internal error  occurred please contact SYSADMIN")
+		}
+		return c;
+	}
+
+	@Override
+	public void deletePlayer(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int updatePlayerContact(int id, long newContact) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Player getPlayerById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Player> getAllPlayers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+
+}

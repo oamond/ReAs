@@ -1,0 +1,9 @@
+package com.app.dao;
+
+public interface PlayerSearchDAO {
+	
+	public Player getPlayerByContact (long contact) throws BusinessException;
+	public List<Player> getPlayersByGender (String gender) throws BusinessException;
+	
+
+}
