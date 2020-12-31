@@ -1,0 +1,11 @@
+package com.app.service.impl;
+
+import com.app.service.PlayerSearchService;
+
+public class PlayerSearchServiceImpl implements PlayerSearchService {
+
+	public PlayerSearchServiceImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

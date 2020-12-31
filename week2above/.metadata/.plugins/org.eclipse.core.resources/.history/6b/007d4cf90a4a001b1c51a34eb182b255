@@ -1,0 +1,23 @@
+package eg1;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateReadValidationDemo {
+
+	public static void main(String[] args) {
+		
+		String s= "10.02.2000"; //dd,MM,yyyy
+		SimpleDateFormat sdf= new SimpleDateFormat("dd.MM.yyyy");
+		Date dob = null;
+		try {
+			dob = sdf.parse(s); //Takes tring and reformats 
+			System.out.println("dob validate with dob = "+sdf);
+		} catch (ParseException e) {
+			System.out.println(e);
+		}
+		
+	}
+
+}

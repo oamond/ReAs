@@ -1,0 +1,8 @@
+package com.app.service.impl;
+
+import com.app.main.PlayerSearchName;
+import com.app.service.PlayerSearchService;
+
+public class PlayerSearchServiceImpl extends PlayerSearchName implements PlayerSearchService {
+
+}

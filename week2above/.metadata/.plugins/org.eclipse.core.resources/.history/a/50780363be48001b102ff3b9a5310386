@@ -1,0 +1,23 @@
+package com.app.dao.impl;
+
+import com.app.dao.BusinessException;
+import com.app.dao.List;
+import com.app.dao.Player;
+import com.app.dao.PlayerSearchDAO;
+
+public class PlayerSearchDAOImpl implements PlayerSearchDAO {
+
+	@Override
+	public Player getPlayerByContact(long contact) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Player> getPlayersByGender(String gender) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

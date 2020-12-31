@@ -1,0 +1,12 @@
+package com.demo;
+
+public class HelloJava8InterfaceMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HelloJava8Interface.hiStatic();
+		HelloJava8Interface hm = new HelloJava8Interface();
+		hm.hiDefault();
+	}
+
+}

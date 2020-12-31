@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=player_search_app_two/C:\/Program Files\/Java\/jdk-15.0.1\/lib\/jrt-fs.jar`java.management=/maven.pomderived=/true=/&lt;java.lang.management(PlatformManagedObject.class[PlatformManagedObject" modifiers="1537" timestamp="1605757763703"/>
+    <typeInfo handle="=player_search_app_two/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.service{PlayerSearchService.java[PlayerSearchService" modifiers="513" timestamp="1609136231332"/>
+    <typeInfo handle="=player_search_app_two/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.dao{PlayerSearchDAO.java[PlayerSearchDAO" modifiers="513" timestamp="1609134855741"/>
+    <typeInfo handle="=player_search_app_two/C:\/Program Files\/Java\/jdk-15.0.1\/lib\/jrt-fs.jar`java.management=/maven.pomderived=/true=/&lt;java.lang.management(PlatformLoggingMXBean.class[PlatformLoggingMXBean" modifiers="1537" timestamp="1605757763703"/>
+</typeInfoHistroy>

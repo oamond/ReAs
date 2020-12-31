@@ -1,0 +1,33 @@
+package eg1;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateFormatting {
+	
+	public static void main(String[] args) {
+		
+		Date d = new Date();
+		System.out.println(d);
+		
+		/*
+		 *  dd- date in 2 digits 
+		 *  MM - month in 2 digits MMM- short name of a month  MMMM- full month name
+		 *  yy - last two digit of year yyyy- year in full
+		 *  EEE - day in shortname, EEEE - Full day name
+		 *  mm - minutes
+		 *  ss- seconds
+		 *  HH - 24hr
+		 *  hh - 12hr
+		 *  z/Z - time zone
+		 *  a - am/pm
+		 *  
+		 */
+		
+		SimpleDateFormat sdf = new  SimpleDateFormat("dd-MMM-yyyy EEEE z Z hh:mm:ss a");
+		System.out.println("formatted date : "+sdf.format(d));
+		
+		
+	}
+
+}
