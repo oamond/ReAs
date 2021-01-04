@@ -1,0 +1,16 @@
+package coma.app.service;
+
+import org.apache.log4j.Logger;
+
+import coma.app.main.HelloLog4j;
+
+public class HelloLogService {
+
+	private static Logger log = Logger.getLogger(HelloLogService.class);
+	
+	public void HelloLog() {
+		log.info("Hello from log service helloLog()");
+		log.info("Bye from log service helloLog()" );
+		
+	}
+}

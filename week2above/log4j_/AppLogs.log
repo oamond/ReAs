@@ -1,0 +1,72 @@
+{INFO} coma.app.main.HelloLog4j Hello from INFO   2021-01-03 23:01:32,275
+{WARN} coma.app.main.HelloLog4j Hello from WARN   2021-01-03 23:01:32,275
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   2021-01-03 23:01:32,275
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   2021-01-03 23:01:32,276
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   2021-01-03 23:01:32,276
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   2021-01-03 23:01:32,276
+{INFO} coma.app.main.HelloLog4j Hello from INFO   2021-01-03 23:03:24,468
+{WARN} coma.app.main.HelloLog4j Hello from WARN   2021-01-03 23:03:24,469
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   2021-01-03 23:03:24,469
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   2021-01-03 23:03:24,469
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   2021-01-03 23:03:24,470
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   2021-01-03 23:03:24,470
+{INFO} coma.app.main.HelloLog4j Hello from INFO   2021-01-03 23:08:27,507
+{WARN} coma.app.main.HelloLog4j Hello from WARN   2021-01-03 23:08:27,508
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   2021-01-03 23:08:27,508
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   2021-01-03 23:08:27,508
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   2021-01-03 23:08:27,508
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   2021-01-03 23:08:27,508
+{INFO} coma.app.main.HelloLog4j Hello from INFO   2021-01-03 23:09:14,301
+{WARN} coma.app.main.HelloLog4j Hello from WARN   2021-01-03 23:09:14,302
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   2021-01-03 23:09:14,302
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   2021-01-03 23:09:14,302
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   2021-01-03 23:09:14,302
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   2021-01-03 23:09:14,302
+{INFO} coma.app.main.HelloLog4j Hello from INFO   2021-01-03 23:21:43,831
+{WARN} coma.app.main.HelloLog4j Hello from WARN   2021-01-03 23:21:43,832
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   2021-01-03 23:21:43,832
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   2021-01-03 23:21:43,832
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   2021-01-03 23:21:43,833
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   2021-01-03 23:21:43,833
+{INFO} coma.app.main.HelloLog4j Hello from INFO   2021-01-03 23:35:00,822
+{WARN} coma.app.main.HelloLog4j Hello from WARN   2021-01-03 23:35:00,823
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   2021-01-03 23:35:00,823
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   2021-01-03 23:35:00,823
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   2021-01-03 23:35:00,824
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   2021-01-03 23:35:00,824
+{INFO} coma.app.main.HelloLog4j Hello from INFO   2021-01-03 23:35:59,019
+{WARN} coma.app.main.HelloLog4j Hello from WARN   2021-01-03 23:35:59,020
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   2021-01-03 23:35:59,020
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   2021-01-03 23:35:59,020
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   2021-01-03 23:35:59,021
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   2021-01-03 23:35:59,021
+{INFO} coma.app.main.HelloLog4j Hello from INFO   03-Jan-2021 Sunday CST 23:36:51
+{WARN} coma.app.main.HelloLog4j Hello from WARN   03-Jan-2021 Sunday CST 23:36:51
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   03-Jan-2021 Sunday CST 23:36:51
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   03-Jan-2021 Sunday CST 23:36:51
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   03-Jan-2021 Sunday CST 23:36:51
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   03-Jan-2021 Sunday CST 23:36:51
+{INFO} coma.app.main.HelloLog4j Hello from INFO   03-Jan-2021 Sunday CST 23:41:11
+{WARN} coma.app.main.HelloLog4j Hello from WARN   03-Jan-2021 Sunday CST 23:41:11
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   03-Jan-2021 Sunday CST 23:41:11
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   03-Jan-2021 Sunday CST 23:41:11
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   03-Jan-2021 Sunday CST 23:41:11
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   03-Jan-2021 Sunday CST 23:41:11
+{INFO} coma.app.main.HelloLog4j Hello from INFO   04-Jan-2021 Monday CST 00:19:05
+{WARN} coma.app.main.HelloLog4j Hello from WARN   04-Jan-2021 Monday CST 00:19:05
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   04-Jan-2021 Monday CST 00:19:05
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   04-Jan-2021 Monday CST 00:19:05
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   04-Jan-2021 Monday CST 00:19:05
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   04-Jan-2021 Monday CST 00:19:05
+{INFO} coma.app.main.HelloLog4j Hello from INFO   04-Jan-2021 Monday CST 00:21:41
+{WARN} coma.app.main.HelloLog4j Hello from WARN   04-Jan-2021 Monday CST 00:21:41
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   04-Jan-2021 Monday CST 00:21:41
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   04-Jan-2021 Monday CST 00:21:41
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   04-Jan-2021 Monday CST 00:21:41
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   04-Jan-2021 Monday CST 00:21:41
+{INFO} coma.app.main.HelloLog4j Hello from INFO   04-Jan-2021 Monday CST 09:58:39
+{WARN} coma.app.main.HelloLog4j Hello from WARN   04-Jan-2021 Monday CST 09:58:39
+{ERROR} coma.app.main.HelloLog4j Hello from ERROR   04-Jan-2021 Monday CST 09:58:39
+{FATAL} coma.app.main.HelloLog4j Hello from FATAL   04-Jan-2021 Monday CST 09:58:39
+{INFO} coma.app.service.HelloLogService Hello from log service helloLog()   04-Jan-2021 Monday CST 09:58:39
+{INFO} coma.app.service.HelloLogService Bye from log service helloLog()   04-Jan-2021 Monday CST 09:58:39

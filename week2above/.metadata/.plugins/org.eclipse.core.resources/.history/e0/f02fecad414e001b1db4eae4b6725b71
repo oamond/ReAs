@@ -1,0 +1,5 @@
+package coma.app.main;
+
+public class HelloLog4j {
+
+}

@@ -13,7 +13,7 @@ public class PlayerMain {
 	public static void main(String[] args) {
 		
 		PlayerCrudDAO dao = new PlayerCrudDAOImpl();
-//		
+		
 //		Player p = new Player(321, "Micro Killz", 24, 1234567012, "Armada", "M", new Date());
 //		
 //		try {
@@ -25,14 +25,16 @@ public class PlayerMain {
 //		}
 //		
 		
-		try {
-			
-		 dao.deletePlayer(238);
-		 System.out.println("player successfully deleted");
-			
-		} catch (BusinessException e) {
-			System.out.println(e.getMessage());
-		}
+	
+		
+//		try {
+//			
+//		 dao.deletePlayer(238);
+//		 System.out.println("player successfully deleted");
+//			
+//		} catch (BusinessException e) {
+//			System.out.println(e.getMessage());
+//		}
 		
 	
 		

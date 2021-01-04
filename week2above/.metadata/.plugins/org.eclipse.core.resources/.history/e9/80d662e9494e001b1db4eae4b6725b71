@@ -1,0 +1,12 @@
+#in this file '#' is used to comment
+
+#setting the log level for the app
+#potato is a variable name used to identify the configuration related to console, you can use any name for that. 
+
+log4j.rootLogger =  INFO , potato
+
+
+#configuration for console. 
+log4j.appender.potato = org.apache.log4j.ConsoleAppender
+log4j.appender.potato.layout = org.apache.log4j.PatternLayout
+log4j.appender.potato.layout.ConversionPattern ={%p} %c %d %m%n

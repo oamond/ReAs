@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\mondr\Documents\week2above\junit_demo"/>
+			<item value="C:\Users\mondr\Documents\week2above\junit5_maven_demo"/>
+			<item value="C:\Users\mondr\Documents\week2above\junit_demo\src\com\demo\service\test\MyServicesTest.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -14,7 +19,6 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -46,21 +50,14 @@
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 			<item value="com.app"/>
-			<item value="com.demo"/>
 		</list>
 		<list key="name">
+			<item value="log4j_demo"/>
 			<item value="junit5_maven_demo"/>
-			<item value="player_search_app_two"/>
-			<item value="jdbc_demo-solo2"/>
-			<item value="jdbc_demo-solo"/>
-			<item value="player search app"/>
 		</list>
 		<list key="artifactId">
+			<item value="log4j_"/>
 			<item value="junit5_maven_demo"/>
-			<item value="player_search_app_two"/>
-			<item value="jdbc_demo-solo2"/>
-			<item value="jdbc_demo-solo"/>
-			<item value="player_search_app"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -73,17 +70,5 @@
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
-	</section>
-	<section name="org.eclipse.m2e.core.pom.overview">
-	</section>
-	<section name="org.eclipse.m2e.core.pom.dependencies">
-	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
-		<item key="width" value="480"/>
-		<item key="height" value="531"/>
-		<item key="x" value="1434"/>
-		<item key="y" value="339"/>
-	</section>
-	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>

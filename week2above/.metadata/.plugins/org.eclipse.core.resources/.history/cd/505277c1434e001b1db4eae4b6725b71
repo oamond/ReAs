@@ -1,0 +1,5 @@
+package coma.app.service;
+
+public class HelloLogService {
+
+}

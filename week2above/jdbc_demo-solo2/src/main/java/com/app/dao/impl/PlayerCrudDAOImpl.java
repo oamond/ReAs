@@ -60,20 +60,22 @@ public class PlayerCrudDAOImpl implements PlayerCrudDAO {
 
 	@Override
 	public int updatePlayerContact(int id, long newContact) throws BusinessException {
-		// TODO Auto-generated method stub
-		
+		long c = 0;
 		try(Connection connection = PostgresqlConnection.getConnection()) {
 			String sql = "update practice2.player set contact = ? where id = ?";
-			PreparedStatement statement = connection.prepareStatement(sql);
-			statement.setLong(6, newContact);
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(2, id);
+			preparedStatement.setLong(1, newContact);
+			preparedStatement.executeUpdate();
 			
 			
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			throw new BusinessException("internal error occurred");
+			//System.out.println(e);
+			throw new BusinessException("internal error occurred contact SYSADMIN");
 		}
 		
-		return 0;
+	return 0;
 	}
 
 	@Override
