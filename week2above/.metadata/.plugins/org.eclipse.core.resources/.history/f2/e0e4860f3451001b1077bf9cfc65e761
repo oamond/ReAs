@@ -1,0 +1,5 @@
+package com.practicemocknetwork.dao;
+
+public class NetworkDAO {
+
+}

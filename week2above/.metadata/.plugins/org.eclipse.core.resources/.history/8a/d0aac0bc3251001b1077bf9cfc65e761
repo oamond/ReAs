@@ -1,0 +1,5 @@
+package com.practicemockdb.dao;
+
+public class DatabaseDAO {
+
+}

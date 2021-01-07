@@ -1,0 +1,16 @@
+package com.practicemock.mockito;
+
+import org.apache.log4j.Logger;
+import org.junit.jupiter.api.Test;
+
+import coma.app.main.HelloLog4j;
+
+public class SomeServiceTest {
+	
+	private static Logger log = Logger.getLogger(SomeServiceTest.class);
+	@Test
+	void testSome() {
+		System.out.println();
+	}
+
+}

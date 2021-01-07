@@ -1,0 +1,32 @@
+package com.practicemock.mockito;
+
+import org.apache.log4j.Logger;
+import org.junit.jupiter.api.Test;
+
+
+
+
+
+public class SomeServiceTest {
+	
+	private static Logger log = Logger.getLogger(SomeServiceTest.class);
+	
+	@Test
+	void testSome() {
+		log.debug("**---- Test someServiceTest executed---**");
+		
+		AddService addService;
+		SomeService someService;
+		
+		addService = Mockito.mock(AddService.class);
+		someService = new SomeService(addService);
+		
+		int num1 - 11;
+		int num2 = 12;
+		int expected = 23;
+		
+		
+		
+	}
+
+}

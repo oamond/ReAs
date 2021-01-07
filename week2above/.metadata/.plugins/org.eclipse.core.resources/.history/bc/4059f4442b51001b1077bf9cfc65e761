@@ -1,0 +1,26 @@
+package com.practicemock.mockito;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.When;
+
+import org.apache.log4j.Logger;
+import org.junit.jupiter.api.Test;
+
+
+
+
+
+public class SomeServiceTest {
+	
+	private static Logger log = Logger.getLogger(SomeServiceTest.class);
+	
+	@Test
+	void testSome() {
+		log.debug("**---- Test someServiceTest executed---**");
+		
+		
+		
+		
+	}
+
+}
